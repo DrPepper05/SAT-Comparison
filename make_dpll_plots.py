@@ -14,11 +14,11 @@ from helpers import load_dimacs
 from solvers.dpll_solver import dpll_solver
 
 # ===== CONFIG =====
-VAR_START = 6
-VAR_END = 10
+VAR_START = 49
+VAR_END = 49
 VAR_COUNTS = list(range(VAR_START, VAR_END+1))
 
-MAX_CLAUSES = 200
+MAX_CLAUSES = 300
 CLAUSE_STEP = 5
 CLAUSE_COUNTS = list(range(CLAUSE_STEP, MAX_CLAUSES+1, CLAUSE_STEP))
 

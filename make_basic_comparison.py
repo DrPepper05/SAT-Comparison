@@ -29,8 +29,8 @@ from solvers.dp_solver import dp_solver
 from solvers.dpll_solver import dpll_solver
 
 # ===== CONFIGURATION =====
-VAR_START = 6
-VAR_END = 8
+VAR_START = 1
+VAR_END = 20
 VAR_COUNTS = list(range(VAR_START, VAR_END+1))
 
 MAX_CLAUSES = 40

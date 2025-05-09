@@ -14,8 +14,8 @@ from helpers import load_dimacs
 from solvers.dp_solver import dp_solver
 
 # ===== CONFIG =====
-VAR_START = 1
-VAR_END = 10
+VAR_START = 10
+VAR_END = 15
 VAR_COUNTS = list(range(VAR_START, VAR_END+1))
 
 MAX_CLAUSES = 40
