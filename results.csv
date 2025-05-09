@@ -1,0 +1,9 @@
+instance,solver,sat,seconds
+random20_85.cnf,resolution:strategy=mostfreq,timeout,600.0
+random20_85.cnf,resolution:strategy=leastfreq,timeout,600.0
+random20_85.cnf,dp:strategy=mostfreq,timeout,600.0
+random20_85.cnf,dp:strategy=leastfreq,timeout,600.0
+random20_85.cnf,dpll:heuristic=fixed,True,0.126
+random20_85.cnf,dpll:heuristic=mostfreq,True,0.04
+random20_85.cnf,cdcl:use_vsids=False,?,0.052
+random20_85.cnf,cdcl:use_vsids=True,?,0.044
